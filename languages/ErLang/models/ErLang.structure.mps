@@ -71,7 +71,7 @@
   </node>
   <node concept="1TIwiD" id="2jIKOX6kU5J">
     <property role="EcuMT" value="2661279175072260463" />
-    <property role="TrG5h" value="PlusExpression" />
+    <property role="TrG5h" value="AddExpression" />
     <property role="34LRSv" value="+" />
     <ref role="1TJDcQ" node="2jIKOX6kU3l" resolve="BinaryExpression" />
   </node>
@@ -117,7 +117,7 @@
   </node>
   <node concept="1TIwiD" id="2jIKOX6l6tI">
     <property role="EcuMT" value="2661279175072311150" />
-    <property role="TrG5h" value="LongLiteral" />
+    <property role="TrG5h" value="IntLiteral" />
     <ref role="1TJDcQ" node="2jIKOX6kU1G" resolve="Expression" />
     <node concept="1TJgyi" id="2jIKOX6l6uy" role="1TKVEl">
       <property role="IQ2nx" value="2661279175072311202" />

@@ -46,13 +46,10 @@
       </concept>
     </language>
     <language id="4520b75d-fdf6-44d6-9c6e-a8930e467149" name="ErLang">
-      <concept id="2661279175072311150" name="ErLang.structure.LongLiteral" flags="ng" index="1yIEgx">
+      <concept id="2661279175072311150" name="ErLang.structure.IntLiteral" flags="ng" index="1yIEgx">
         <property id="2661279175072311202" name="value" index="1yIEjH" />
       </concept>
-      <concept id="2661279175072310942" name="ErLang.structure.StringLiteral" flags="ng" index="1yIEnh">
-        <property id="2661279175072310994" name="value" index="1yIEmt" />
-      </concept>
-      <concept id="2661279175072260463" name="ErLang.structure.PlusExpression" flags="ng" index="1yJm8w" />
+      <concept id="2661279175072260463" name="ErLang.structure.AddExpression" flags="ng" index="1yJm8w" />
       <concept id="2661279175072260309" name="ErLang.structure.BinaryExpression" flags="ng" index="1yJmeq">
         <child id="2661279175072260568" name="rhs" index="1yJman" />
         <child id="2661279175072260566" name="lhs" index="1yJmap" />
@@ -101,24 +98,14 @@
   </registry>
   <node concept="1yJmX0" id="2jIKOX6l6Yf">
     <property role="TrG5h" value="erlangExampleCodeBlock" />
-    <node concept="1yJmzD" id="2jIKOX6lcmh" role="1yJmWT">
-      <node concept="1yJm8w" id="2jIKOX6lcml" role="1yJmyl">
-        <node concept="1yIEgx" id="2jIKOX6lcmu" role="1yJmap">
+    <node concept="1yJmzD" id="1HdTXXtImnJ" role="1yJmWT">
+      <node concept="1yJm8w" id="1HdTXXtImnN" role="1yJmyl">
+        <node concept="1yIEgx" id="1HdTXXtImnW" role="1yJmap">
           <property role="1yIEjH" value="2" />
         </node>
-        <node concept="1yIEgx" id="2jIKOX6lcmx" role="1yJman">
+        <node concept="1yIEgx" id="1HdTXXtImnZ" role="1yJman">
           <property role="1yIEjH" value="4" />
         </node>
-      </node>
-    </node>
-    <node concept="1yJmzD" id="2jIKOX6lcm$" role="1yJmWT">
-      <node concept="1yIEnh" id="4UUTy8ax$Ck" role="1yJmyl">
-        <property role="1yIEmt" value="this is a string literal" />
-      </node>
-    </node>
-    <node concept="1yJmzD" id="2jIKOX6lcmX" role="1yJmWT">
-      <node concept="1yIEgx" id="2jIKOX6lcn7" role="1yJmyl">
-        <property role="1yIEjH" value="10" />
       </node>
     </node>
   </node>
