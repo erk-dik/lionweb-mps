@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="ErLang" uuid="4520b75d-fdf6-44d6-9c6e-a8930e467149" languageVersion="0" moduleVersion="0">
+<language namespace="ErLangExt" uuid="f8fa1520-7a5a-49cc-aede-25c5c85c0af9" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -12,7 +12,7 @@
   </facets>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="ErLang.generator" uuid="f45ecdf6-f7b5-4721-9ac5-4946aa74d2e2">
+    <generator alias="main" namespace="ErLangExt.generator" uuid="5f94b929-b480-4e3f-bac6-9f1f2e874898">
       <models>
         <modelRoot contentPath="${module}/generator" type="default">
           <sourceRoot location="templates" />
@@ -44,9 +44,8 @@
       </languageVersions>
       <dependencyVersions>
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-        <module reference="4520b75d-fdf6-44d6-9c6e-a8930e467149(ErLang)" version="0" />
-        <module reference="f45ecdf6-f7b5-4721-9ac5-4946aa74d2e2(ErLang.generator)" version="0" />
-        <module reference="06952cca-1429-43e5-8634-ecf8ae450911(ErLang.runtime)" version="0" />
+        <module reference="f8fa1520-7a5a-49cc-aede-25c5c85c0af9(ErLangExt)" version="0" />
+        <module reference="5f94b929-b480-4e3f-bac6-9f1f2e874898(ErLangExt.generator)" version="0" />
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
@@ -93,7 +92,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-    <module reference="4520b75d-fdf6-44d6-9c6e-a8930e467149(ErLang)" version="0" />
+    <module reference="f8fa1520-7a5a-49cc-aede-25c5c85c0af9(ErLangExt)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />

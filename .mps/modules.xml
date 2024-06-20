@@ -2,8 +2,12 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/EdLang/EdLang.mpl" folder="erlang" />
+      <modulePath path="$PROJECT_DIR$/languages/EdLang/sandbox/EdLang.sandbox.msd" folder="erlang" />
       <modulePath path="$PROJECT_DIR$/languages/ErLang/ErLang.mpl" folder="erlang" />
       <modulePath path="$PROJECT_DIR$/languages/ErLang/sandbox/ErLang.sandbox.msd" folder="erlang" />
+      <modulePath path="$PROJECT_DIR$/languages/ErLangExt/ErLangExt.mpl" folder="erlang" />
+      <modulePath path="$PROJECT_DIR$/languages/ErLangExt/sandbox/ErLangExt.sandbox.msd" folder="erlang" />
       <modulePath path="$PROJECT_DIR$/languages/MultiRefLang/MultiRefLang.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestAbstract/io.lionweb.mps.converter.TestAbstract.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestAllBuiltins/io.lionweb.mps.converter.TestAllBuiltins.mpl" folder="test.langs" />
@@ -36,6 +40,8 @@
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.structure.attribute/io.lionweb.mps.structure.attribute.mpl" folder="lang.m3" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.testsupport/io.lionweb.mps.testsupport.mpl" folder="test.support" />
       <modulePath path="$PROJECT_DIR$/languages/library/library.mpl" folder="test.langs" />
+      <modulePath path="$PROJECT_DIR$/languages/yal/sandbox/yal.sandbox.msd" folder="erlang" />
+      <modulePath path="$PROJECT_DIR$/languages/yal/yal.mpl" folder="erlang" />
       <modulePath path="$PROJECT_DIR$/solutions/bla/bla.msd" folder="xx_broken" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.lionweb.java/io.lionweb.lionweb.java.msd" folder="lang.json" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.build/io.lionweb.mps.build.msd" folder="build" />

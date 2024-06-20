@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="ErLang" uuid="4520b75d-fdf6-44d6-9c6e-a8930e467149" languageVersion="0" moduleVersion="0">
+<language namespace="yal" uuid="16403748-094e-433b-a5df-f450d38ef03a" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -12,7 +12,7 @@
   </facets>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="ErLang.generator" uuid="f45ecdf6-f7b5-4721-9ac5-4946aa74d2e2">
+    <generator alias="main" namespace="yal.generator" uuid="8486aab3-6ed7-4e7a-8cec-aeaa8e648856">
       <models>
         <modelRoot contentPath="${module}/generator" type="default">
           <sourceRoot location="templates" />
@@ -44,20 +44,18 @@
       </languageVersions>
       <dependencyVersions>
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-        <module reference="4520b75d-fdf6-44d6-9c6e-a8930e467149(ErLang)" version="0" />
-        <module reference="f45ecdf6-f7b5-4721-9ac5-4946aa74d2e2(ErLang.generator)" version="0" />
-        <module reference="06952cca-1429-43e5-8634-ecf8ae450911(ErLang.runtime)" version="0" />
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
+        <module reference="16403748-094e-433b-a5df-f450d38ef03a(yal)" version="0" />
+        <module reference="8486aab3-6ed7-4e7a-8cec-aeaa8e648856(yal.generator)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
   </generators>
   <sourcePath />
   <languageVersions>
-    <language slang="l:411e5b27-8a76-482e-8af8-1704262b4468:io.lionweb.mps.structure.attribute" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -93,12 +91,12 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-    <module reference="4520b75d-fdf6-44d6-9c6e-a8930e467149(ErLang)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
+    <module reference="16403748-094e-433b-a5df-f450d38ef03a(yal)" version="0" />
   </dependencyVersions>
   <extendedLanguages />
 </language>
